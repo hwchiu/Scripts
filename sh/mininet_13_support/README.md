@@ -1,0 +1,2 @@
+- This script will make the openvswitch to support openflow 1.1,1.2,1.3.
+- You can use it with mininet to test openflow 1.3 environment.
