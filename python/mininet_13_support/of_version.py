@@ -2,7 +2,7 @@ import argparse
 import subprocess
 
 parser = argparse.ArgumentParser(description='Modify the supported verstion of openvswitch.')
-parser.add_argument('-v',"--version",type=str, choices=["OF10","OF11","OF12","OF13"],default="OF10",nargs="*",
+parser.add_argument('-v',"--version",type=str, choices=["OF10","OF11","OF12","OF13"],default=["OF10"],nargs="*",
                    help='a version that openvswitch will support')
 parser.add_argument('-i', "--INCLUDE",type=str,nargs="*",
                    help='the bridges you want to modify. You can set the value to ALL to modify all bridges')
