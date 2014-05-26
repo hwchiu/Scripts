@@ -5,5 +5,8 @@
 ###Usage
 - python gui.py
 
+###Limitation
+- The network topology is a hard-code fat tree.
+
 ##Screenshot
 ![GUI VIEW](http://goo.gl/aaCBP9)
